@@ -1,0 +1,250 @@
+/*REAOLUÇÕES PARA RESPONSIVIDADE*/
+/*Celular: 		Max-568px*/
+/*Tablet_one: 	Max-768px*/
+/*Tablet_two: 	Max-768px*/
+/*Desktop: 		Max-992px*/
+
+:root{
+	/*CORES BASE*/
+	--white: 		#ffffff;
+	--black: 		#000000;
+	--grey-dark: 	#1C1C1C;
+	--grey-medium: 	#808080;
+	--grey-light: 	#DCDCDC;
+	--silver: 		#C0C0C0;
+	--red: 			#FF0000;
+	--maroon: 		#800000;
+	--orange: 		#FF4500;
+	--yellow: 		#FFFF00;
+	--gold: 		#FFD700;
+	--green: 		#008000;
+	--lime: 		#00FF00;
+	--blue: 		#0000FF;
+	--blue-dark: 	#00008B;
+	--blue-sky: 	#87CEEB;
+	--purple: 		#A020F0;
+	--violet: 		#EE82EE;
+	--indigo: 		#4B0082;
+	--deeppink: 	#FF1493;
+	--pink: 		#FFC0CB;
+
+	--blue-orkut: 	#c5d1e6;
+	--pink-orkut:  	#b90d92;
+
+	/*CORES DO PROJETO*/
+
+	/*PROPRIEDADES DE FONTES BASE*/
+	/*Obs:  Unidade de medida 1rem é 16 pixels*/
+	--font-family: Arial, Tahoma, Calibri, Verdana;
+	--font-size: 1rem;
+
+	--align-title: center;
+	--align-sub-title: center;
+	--align-text: center;
+
+	/*BORDAS BASE*/
+	--border: none;
+	--border-style: none;
+	--border-radius: 4px;
+
+	/*RESET DE LINKS*/
+	--list-style: none;
+	--text-descoration: none;
+}
+
+body{
+	margin: 0;
+	margin: 0;
+	border: 0;
+	background-color: var(--blue-orkut);
+	font-family: var(--font-family);
+	border: 0.8rem solid var(--blue-orkut);
+}
+
+.wrap{
+	width: 75rem;
+	max-width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	/*position: relative;*/
+}
+
+.banner-home{
+    display: flex;
+    width: 100%;
+}
+
+/*=============================================*/
+/*=============== CSS DA PÁGINA ===============*/
+/*=============================================*/
+.content{
+	height: 100%;
+}
+
+.box-logo{
+	font-weight: bold;
+	background-color: var(--white);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-form{
+	max-width: 95%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-login{
+	background-color: #e2e9fb;
+	border: 5px solid var(--white);
+	margin-bottom: 1rem;
+}
+
+.box-register{
+	background-color: #e2e9fb;
+	border: 5px solid var(--white);
+}
+
+fieldset{
+	max-width: 24rem;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: var(--border);
+}
+
+legend{
+	width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+
+a{
+	color: var(--blue);
+}
+
+.text-google{
+	display: flex;
+    justify-content: center;
+}
+
+.form-login{
+	padding: 0rem 1rem;
+}
+
+.input-form{
+	max-width: 185px;
+	width: 100%;
+	height: 18px;
+}
+
+.btn-enter{
+    max-width: 60px;
+    width: 100%;
+    height: 23px;
+    background-color: #e1e1e1;
+    box-shadow: inset 0 0 3px var(--blue);
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.sub-title{
+	color: var(--pink-orkut);
+}
+
+.logo-orkut{
+	object-fit: contain;
+	width: 100%;
+}
+
+.logo-google{
+	width: 70px;
+	padding-left: 0.4rem;
+}
+
+.item-form{
+	padding-bottom: 0.8rem;
+}
+
+.info-footer{
+	width: 100%;
+	background-color: #a7bde4;
+	padding: 0.6rem 0rem;
+	text-align: center;
+	/*font-weight: bold;*/
+}
+
+.link-footer{
+	color: var(--blue);
+}
+
+/*=============================================*/
+/*============== RESPONSIVIDADE ===============*/
+/*=============================================*/
+@media screen and (max-width: 992px){
+	.box-logo{
+		text-align: center;
+		margin-bottom: 1rem;
+		padding: 1rem;
+	}
+
+	.box-form{
+		display: contents;
+	}
+
+	.box-login{
+		width: 98%;
+		display: flex;
+    	justify-content: center;
+	}
+
+	.box-register{
+		width: 98%;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 1rem 0rem;
+	}
+
+	.input-form{
+		width: 100%;
+	}
+
+	footer{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.content{
+		display: grid;
+		grid-template-columns: 78% 22%;
+		gap: 1rem;
+	}
+
+	.box-login{
+		width: 100%;
+		height: 30rem;
+	    display: flex;
+    	align-items: center;
+	}
+
+	.box-register{
+		width: 100%;
+		height: 10rem;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.link-register{
+		font-size: 1.2rem;
+	}
+}
