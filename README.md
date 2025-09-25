@@ -1,15 +1,34 @@
-"# Orkut" 
-"# TelaDeLogin" 
-"# TelaDeLogin" 
-"# TelaDeLogin" 
-"# TelaDeLogin" 
-"# TelaDeLogin" 
-"# TelaDeLogin" 
+# 🌟 Orkut – Tela de Login Nostálgica
 
-Projeto desenvolvido para Portfólio, com Responsividade construida utilizando linguagem CSS 3 nativo, com uso da função @media screen e claro, muita nostalgia envolvida!!!
+Projeto desenvolvido para **portfólio**, recriando a interface da antiga rede social **Orkut**.  
+O foco principal foi a **tela de login**, trazendo de volta toda a nostalgia da plataforma da Google! 😄
 
-Objetivo principal foi desenvolver a interface da tela de acesso (Tela de Login) da antiga e desativada Rede Social da Google, o Orkut.
+---
 
-Este é o link de acesso para visualização do projeto: https://alissonrochadev.github.io/Orkut/
+## 🎨 Tecnologias Utilizadas
 
-Obrigado! =D
+- **HTML5** – Estrutura semântica da página.  
+- **CSS3 Nativo** – Estilização detalhada e **responsiva**.  
+- **@media screen** – Para adaptar a tela em diferentes dispositivos.  
+
+---
+
+## 🎯 Objetivo do Projeto
+
+- Recriar fielmente a **tela de login do Orkut**.  
+- Desenvolver habilidades em **design responsivo** e uso de **CSS puro**.  
+- Explorar a nostalgia digital de uma rede social marcante.
+
+---
+
+## 🖥️ Visualização
+
+Acesse o projeto online: [Clique aqui para visualizar](https://alissonrochadev.github.io/Orkut/)
+
+---
+
+## 📂 Como Executar Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/AlissonRochaDev/Orkut.git
